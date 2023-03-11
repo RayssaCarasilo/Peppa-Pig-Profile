@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Perfil da Peppa Pig</title>
+  <meta charset="UTF-8">
+  <style>
+    
+    header,
+    main {
+      border: 1px solid rgb(233, 172, 228);
+      width: 750px;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      padding: 20px 0px 20px 20px;
+      background-color: rgb(239, 218, 245);
+    }
+
+    header div.thumb {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      flex: none;
+      margin: 10px;
+    }
+    
+    .profileImg{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid rgb(233, 172, 228);
+    }
+
+    .coluna{
+      float: left;
+      width: 33.33%;    
+    }
+
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .iconpositive:hover{
+	transform: scale(1.1);
+    cursor: pointer;
+    }
+
+
+    .iconnegative:hover{
+	transform: scale(1.1);
+    cursor: pointer;
+    }
+
+    main {
+      display: flex;
+    }
+
+    main div.menu {
+      width: 200px;
+      background: black;
+      flex: none;
+    }
+
+    main article {
+      padding: 5px 10px;
+      display: inline
+    }
+
+    main article img {
+      border: 1px solid rgb(138, 55, 135);
+      width: 300px;
+      height: 300px;
+      float: right;
+    }
+
+    nav a {
+    justify-content: left;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+
+    }
+
+    nav a:hover {
+	color: #f59ed4;
+	text-decoration: underline;
+    }
+
+    article{
+        background-color:#fae6f2
+    }
+    
+  </style>
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="thumb"> <img class="profileImg" src="images/peppa.jpg"/></div>
+    <div class="info">
+      <h1>Peppa Pig</h1>
+      <p>
+        <em>Eu sou a peppa oink</em>
+      </p>
+
+      <div class="row">
+        <div class="coluna">
+          <img class="iconpositive" src="images/gostei.png" alt="gostei" style="width: 40px; height: 40px">
+        </div>
+        <div class="coluna">
+          <img class="iconnegative" src="images/naogostei.png" alt="não gostei" style="width:40px; height:40px">
+        </div>
+   
+    </div>
+ 
+  </header>
+
+  <main>
+    <div class="menu">
+      <nav>
+         <ul>    
+            <li><a href="https://www.dentrodahistoria.com.br/blog/entretenimento-e-diversao/curiosidades-peppa-pig/">°Mais sobre mim</a></li>
+            
+            <li><a href="https://www.youtube.com/watch?v=ut2Vvnu9Xog">°Algumas de minhas aventuras</a></li>
+            
+            <li><a href="https://www.peppapig.com/pt-br/characters">°Um pouco de meus amigos</a></li>
+            
+            <li><a href="https://www.instagram.com/officialpeppa/#">°Meu Instagram</a></li>
+            
+            <li><a href="https://twitter.com/peppapig">°Meu Twitter</a></li>
+            
+            <li><a href="https://www.tiktok.com/@peppapig?lang=pt-BR">°Meu Tiktok</a></li>
+
+            <li><a href="https://www.facebook.com/OfficialPeppaPig/?locale=pt_BR">°Meu Facebook</a></li>
+            
+            <li><a href="https://www.tiktok.com/@peppapig?lang=pt-BR">°Meu Tiktok</a></li>
+
+            <li><a href="https://twitter.com/peppapig">°Meu Twitter</a></li>
+            
+            <li><a href="https://www.tiktok.com/@peppapig?lang=pt-BR">°Meu Tiktok</a></li>
+         </ul> 
+      </nav>
+    </div>
+    <article>
+      <p>
+        <img src="images/pappaarticle.jpg"> 
+        Oi eu sou a Peppa oink, tenho uma mamãe, um papai bobinho e um irmãozinho chamado George. Atualmente eu moro na Inglaterra, mesmo país da rainha Elizabeth
+        inclusive já fui ao palacio de Buckingham com meus amigos da escola e tomamos chá com ela, ela era super legal e atenciosa (rip Betinha).
+        Adoro pular em poças de lama e me exercitar, assim como meu irmão e minha mamãe, exceto o papai, ele odeia exercícios, deve ser por isso que
+        está com aquele barrigão dele.
+        Já visitei diversos lugares, como já disse, o palácio foi um deles, mas já fui ao zoológico, ao parque do senhor batata, e diversos outros lugares.
+        Tenho uma melhor amiga que se chama Suze a Ovelha. Ela é super legal, mas as vezes me irrita. Ela é uma amiga muito querida, mas aviso que é
+        uma trapaceira quando se trata de jogos. Falando nisso, eu amo jogar jogos. Dizem que eu não sei perder, mas acredito que seja inveja por eu ser 
+        muito boa em tudo, e na verdade, quem sempre trapaceia são os que jogam comigo.
+        O jorge, meu irmão ama dinossauros, ele até acredita que um dia vai encontrar um na vida real, coitado.
+        Na horas vagas eu gosto de pisar em poças, a mamãe gosta de ler sua revista favorita, o jorge brincar com seus dinossauros, e o papai ama assistir tv 
+        em sua poltrona.
+        Se você não me seguir, vou ficar muito brava e você não vai querer isso...
+      </p>
+    </article>
+  </main>
+</body>
+<footer>
+    
+</footer>
+</html>
